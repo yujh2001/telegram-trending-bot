@@ -2,8 +2,8 @@ import os
 import requests
 from telegram.ext import CommandHandler, Updater
 
-TOKEN = os.environ.get("7861369219:AAHDnmBJ1eUlK3tT5K6AaanSjKRzuT_ulxU")
-USER_ID = os.environ.get("5073865182")
+TOKEN = "7861369219:AAHDnmBJ1eUlK3tT5K6AaanSjKRzuT_ulxU"
+USER_ID = "5073865182"
 HELIUS_API_KEY = "f96f1101-345f-4e60-8f34-d2f5a8526a0d"
 
 def get_sol_trending():
